@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0; 
+}
+img {
+	height: 30px;
+	width: 50px;
+}
+#header{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	top: 0;
+	background-color: #3E54E6;
+	text-align: center;
+	font-size: 25px;
+}
+#header img{
+	float: left;
+}
+#map {
+	position: absolute;
+	top: 30px;
+	bottom: 30px;
+	width: 100%;
+}
+#info{
+	position: fixed;
+	top: 50px;
+	right: 0px;
+	height: 50px;
+	width: 150px;
+	/*border: 1px solid green;*/
+	z-index: 1;
+	color: black;
+    line-height: 60%;
+    font-size: 14px;
+}
+#legend{
+	position: fixed;
+	top: 100px;
+	right: 0px;
+	height: 200px;
+	width: 150px;
+	z-index: 1;
+	/* text-align: center; */
+	font-size: 13px;
+	color: black;
+	margin-top: 10px;
+}
+.legend-data{
+	width: 100%;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	color: #3E54E6;
+	
+}
+.btn{
+	height: 15px;
+	width: 15px;
+	border-radius: 7.5px;
+	float: left;
+	margin-top: 2px;
+	margin-right: 10px;
+}
+#red{
+	background-color: red;
+	border: 1px solid red;
+}
+#green{
+	background-color: green;
+	border: 1px solid green;
+}
+.mapboxgl-popup-content {
+	background-color: grey;
+	border-radius: 20px;
+	
+}
+#popup{
+	width: 200px;
+	height: 100px;
+}
+#popup-title {
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    line-height: 60%;
+}
+#popup-title p {
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    line-height: 80%;
+}
+.popup-img {
+	height: 25px;
+	width: 25px;
+	margin-right: 10px;
+	float: left;
+}  
+
+#footer{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: 0px;
+	left: 0px;
+	background-color: #3E54E6;
+	/*border: 1px solid red;*/
+}
+.footer-img{
+	display: flex;
+	justify-content: space-between;
+}
+
+a{
+	text-decoration: none;
+	float: right;
+	color: black;
+	font-size: 12px;
+}
